@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         xKuCoin Autoclicker
-// @version      1.1
+// @version      1.2
 // @author       mudachyo
 // @match        *://www.kucoin.com/*
 // @icon         https://assets.staticimg.com/cms/media/3gfl2DgVUqjJ8FnkC7QxhvPmXmPgpt42FrAqklVMr.png
@@ -44,7 +44,7 @@
     }
 
     function findTargetElement() {
-        return document.querySelector('#root > div.container--WYn0q > div:nth-child(2) > div.mainTouch--DToch > div:nth-child(2) > div.frog--GPU1j');
+        return document.querySelector('#root > div.container--WYn0q.feedContainer--pPRP_.feedContainer > div:nth-child(2) > div.mainTouch--DToch > div > div.frog--GPU1j');
     }
 
     function startAutoClicker() {
